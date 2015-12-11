@@ -45,8 +45,7 @@ campaignApp.controller('campaignControllerMain', ['$scope', '$http', '$routePara
   function($scope, $http, $routeParams, uiGridConstants, $log) {
 
     console.log("campaignControllerMain:: invoked");
-
-
+  
       $scope.gridOptions = {
     onRegisterApi: function(gridApi){
       $scope.gridApi = gridApi;
